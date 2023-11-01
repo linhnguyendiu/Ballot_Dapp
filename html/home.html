@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-105319773-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../assets/style/main.css">
+	  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+        * {box-sizing: border-box;}
+        
+        body { 
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .header {
+          overflow: hidden;
+          background-color: #012216;
+          padding: 8px 10px;
+        }
+        
+        .header a {
+          float: left;
+          color: #ccc;
+          text-align: center;
+          padding: 12px;
+          text-decoration: none;
+          font-size: 18px; 
+          line-height: 25px;
+          border-radius: 4px;
+        }
+        
+        .header a.logo {
+          font-size: 25px;
+          font-weight: bold;
+        }
+        
+        .header a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .header a.active {
+          background-color: dodgerblue;
+          color: white;
+        }
+        
+        .header-right {
+          float: right;
+        }
+
+        .imgVote {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        @media screen and (max-width: 500px) {
+          .header a {
+            float: none;
+            display: block;
+            text-align: left;
+          } 
+          .header-right {
+            float: none;
+          }
+        }
+        </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="#default" class="logo" style="line-height: 42px;">Voting dApp</a>
+        <div class="header-right">
+            <button class="btn btn-outline-light my-2 my-sm-0" style = "font-size: 30px; margin: 0px  42px "><a href="index.html" style="font-size: 36px;">Create & Manager</a></button>
+            <button class="btn btn-outline-light my-2 my-sm-0" style = "font-size: 30px;" ><a href="vote.html" style="font-size: 36px;">Vote</a></button>
+            
+        </div>
+      </div>
+      
+      <div class = "container" style="padding-left:20px">
+        <img src="../assets/imgs/vote.jpg" alt="" class="imgVote">
+      </div>
+</body>
+</html>
